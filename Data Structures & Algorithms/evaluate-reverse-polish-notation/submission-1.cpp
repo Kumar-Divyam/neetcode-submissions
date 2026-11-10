@@ -33,3 +33,9 @@ public:
         
     }
 };
+
+/* Note: For subtraction and division, the order matters: 
+When you pop from a stack, 
+    the first pop gives you the right operand (b), and 
+    the second pop gives you the left operand (a). 
+Computing b - a or b / a instead of a - b or a / b will produce incorrect results. */
